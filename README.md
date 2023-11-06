@@ -50,12 +50,12 @@ URI　：　https://github.com/eb-xiexinyue/Java_Induction_2024.git
 
 <br>
 <h4>９、プロジェクト名称に「IotaJava_G4」を設定して、次へ</h4>
+※module-info.javaファイル作成にチェックを外す
 
 ![image](https://github.com/eb-xiexinyue/Java_Induction_2024/blob/sya_shinetsu/img/12.png)
 
 <br>
 <h4>１０、完了　</h4>
-※module-info.javaファイル作成にチェックを外す
 
 ![image](https://github.com/eb-xiexinyue/Java_Induction_2024/blob/sya_shinetsu/img/13.png)
 
