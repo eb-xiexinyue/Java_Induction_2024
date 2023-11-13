@@ -14,7 +14,7 @@ public class JavaHomeWork01 {
 		int n = i%5;
 		System.out. println(n);
 		
-		// N = 0
+		// 回答　： = 0
 
 		// 質問２︓ 右の式を解釈してください: a = a > 10 ? 11 : 0;
 		// 回答 ： aの値は10より大きな場合、a = 11。これ以外の場合では a = 0 をアウトプットする意味
