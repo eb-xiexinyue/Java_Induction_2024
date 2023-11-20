@@ -35,6 +35,8 @@ public class JavaHomeWork02 {
 //		3 System.out.println("a");
 //		4 }
 		
+//		回答　： 出力はa
+		
 		int a = 10;
 		
 		System.out.println("a");
