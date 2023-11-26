@@ -3,8 +3,9 @@ package co.jp.chapter02;
 public class JavaChapter02 {
 
 	public static void main(String[] args) {
-		// TODO 自動生成されたメソッド・スタブ
-
+		System.out.println("this is line1\nthis is line2");
+		
+	 
 	}
 
 }
