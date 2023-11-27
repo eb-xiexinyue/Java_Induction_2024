@@ -2,7 +2,7 @@ package co.jp.chapter03;
 
 public class JavaChapter03 {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) { 
 		// TODO 自動生成されたメソッド・スタブ
 		
 //		int a = 3;
@@ -147,7 +147,7 @@ public class JavaChapter03 {
 		
 		//20231127
 		
-		int in = 22;
+		int in = 9;
 		
 		for(int i=0;i<in;i++) {
 			for(int j=0;j<in;j++) {
@@ -176,43 +176,51 @@ public class JavaChapter03 {
 //						System.out.print("	");
 //					}
 					
-					//方案2
-					if(i<in/2) {
-						if(j<in/2) {
-							if(Math.abs(i-(in/2-1))+Math.abs(j-(in/2-1))==(in/2-1)) {
-								System.out.print(i+""+j+"	");
-							}
-							else {
-								System.out.print("	");
-							}
-						}
-						else {
-							if(Math.abs(i-(in/2-1))+Math.abs(j-(in/2))==(in/2-1)) {
-								System.out.print(i+""+j+"	");
-							}
-							else {
-								System.out.print("	");
-							}
-						}
-					}
-					else {
-						if(j<in/2) {
-							if(Math.abs(i-(in/2))+Math.abs(j-(in/2-1))==(in/2-1)) {
-								System.out.print(i+""+j+"	");
-							}
-							else {
-								System.out.print("	");
-							}
-						}else {
-							if(Math.abs(i-(in/2))+Math.abs(j-(in/2))==(in/2-1)) {
-								System.out.print(i+""+j+"	");
-							}
-							else {
-								System.out.print("	");
-							}
-						}
-					}
 					
+					
+					//方案2
+//					if(i<in/2) {
+//						if(j<in/2) {
+//							if(Math.abs(i-(in/2-1))+Math.abs(j-(in/2-1))==(in/2-1)) {
+//								System.out.print(i+""+j+"	");
+//							}
+//							else {
+//								System.out.print("	");
+//							}
+//						}
+//						else {
+//							if(Math.abs(i-(in/2-1))+Math.abs(j-(in/2))==(in/2-1)) {
+//								System.out.print(i+""+j+"	");
+//							}
+//							else {
+//								System.out.print("	");
+//							}
+//						}
+//					}
+//					else {
+//						if(j<in/2) {
+//							if(Math.abs(i-(in/2))+Math.abs(j-(in/2-1))==(in/2-1)) {
+//								System.out.print(i+""+j+"	");
+//							}
+//							else {
+//								System.out.print("	");
+//							}
+//						}else {
+//							if(Math.abs(i-(in/2))+Math.abs(j-(in/2))==(in/2-1)) {
+//								System.out.print(i+""+j+"	");
+//							}
+//							else {
+//								System.out.print("	");
+//							}
+//						}
+//					}
+					
+					//方案2 ver2.0
+					if(Math.abs(i-(in/2-i/(in/2)))+Math.abs(j-(in/2-j/(in/2)))>=in/2+1) {
+						System.out.print(i+""+j+"	");
+					}else {
+						System.out.print("	");
+					}
 				}
 								
 //				 if (j == 5 - i || j == i - 5 || j == 15 - i || j == i + 5) {
@@ -229,7 +237,7 @@ public class JavaChapter03 {
 		
 		//郑桑方案
 		
-		int in1 = 22;
+		int in1 = 8;
 		
 		for(int i=0;i<in1;i++) {
 			for(int j=0;j<in1;j++) {
@@ -269,5 +277,6 @@ public class JavaChapter03 {
 			System.out.println();
 		
 		}
+		
 	}
 }
