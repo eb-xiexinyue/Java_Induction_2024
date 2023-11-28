@@ -35,7 +35,7 @@ public class JavaHomeWork03 {
 	    					System.out.println("500円のコイン数="+x+"  100円のコイン数="+y+"  5円のコイン数="+j+"  1円のコイン数="+k);
 	    				}
 	    			}
-	    	}
+	    	    }
 	    
 	    	}
 	    }
