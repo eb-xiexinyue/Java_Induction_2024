@@ -42,9 +42,9 @@ package co.jp.chapter03;
 
         
 //        System.out.println("5枚");
-//        System.out.println("500円: " + coinCounts[0] + " 枚");
-//        System.out.println("100円: " + coinCounts[1] + " 枚");
-//        System.out.println("10円: " + coinCounts[2] + " 枚");
+//        System.out.println("500円: " + coinCounts[0] + " 6枚");
+//        System.out.println("100円: " + coinCounts[1] + " 3枚");
+//        System.out.println("10円: " + coinCounts[2] + " 4枚");
 //        System.out.println("5円: " + coinCounts[3] + " 枚");
 //        System.out.println("1円: " + coinCounts[4] + " 枚");
 
