@@ -29,15 +29,19 @@ public class JavaHomeWork03 {
 	    //回答　:
 	    for (int x=0;x<7;x++) {
 	    	for (int y=0;y<34;y++) {
-	    		for(int j=0;j<669;j++) {
-	    			for(int k=0;k<3341;k++) {
-	    				if(500*x+100*y+5*j+1*k==3340) {
-	    					System.out.println("500円のコイン数="+x+"  100円のコイン数="+y+"  5円のコイン数="+j+"  1円のコイン数="+k);
+	    		for(int z=0;z<335;z++) {	
+	    			
+	    			for(int j=0;j<669;j++) {
+	    				for(int k=0;k<3341;k++) {
+	    					if(500*x+100*y+10*z+5*j+1*k==3340) {
+	    		
+							System.out.println("500円のコイン数="+x+"  100円のコイン数="+y+"  10円のコイン数="+z+"  5円のコイン数="+j+"  1円のコイン数="+k);
+	    					}
 	    				}
 	    			}
-	    	    }
 	    
-	    	}
+	    		}
+	    	}	
 	    }
 	}
 }
