@@ -14,9 +14,18 @@ public class JavaHomeWork04 {
 		
 		//問題２:int[] array = new int[] {5, 6}; 各要素の値を記載してください。
 		//回答　:[5, 6]
+		//配列の形式を保留
 		int[] array2 = new int[] {5, 6};
 		System.out.println(Arrays.toString(array2));
 		
+		//配列の要素を出力
+		for(int x:array2) {
+		System.out.println(x);
+		}
+//		for(int i = 0; i < array2.length; i++) {
+//			 int x = array2[i];
+//			 System.out.println(x);
+//		}
 		
 		//問題３:int[][] array = new int[2][3]; 各要素の値を記載してください
 		//回答　:
@@ -24,7 +33,9 @@ public class JavaHomeWork04 {
 		for(int[] arr:array3) {
 			System.out.println(Arrays.toString(arr));
 		}
-		
+//		for(int i = 0; i < array3.length; i++) {
+//			 System.out.println(Arrays.toString(array3[i])); 
+//		}
 		
 		//問題４︓以下２重Foreachを理解してください。
 		//1 int[][] array2d = new int[4][2];
@@ -123,6 +134,8 @@ public class JavaHomeWork04 {
 		}
 		
 		return sum;	
+		
+		
 	}
 
 
