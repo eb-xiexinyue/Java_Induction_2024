@@ -28,11 +28,21 @@ public class JavaChapter04 {
 				}
 			}
 		}
-		
+
 		
 		System.out.println(Arrays.toString(temp_array));
 		
+		
+		  int[] array = new int[] {5 ,6, 7, 8};{
+			  for(int x : array) {
+			  System.out.println(x);
+		}
+		
 	}
+	
+
 }
 	
+}
+
 		
