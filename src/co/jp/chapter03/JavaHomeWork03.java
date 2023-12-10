@@ -36,6 +36,7 @@ public class JavaHomeWork03 {
 		
 		while (500*b<=x) {
 			b++;
+			
 			if(500*b==3000) {
 				System.out.println("500円コイン数：" + b);
 				while (100*c<=x) {
