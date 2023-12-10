@@ -82,7 +82,7 @@ public class JavaHomeWork04 {
 		 }
 		 System.out.println(Arrays.toString(array5));
 		 System.out.println("配列の最大値:" + array5[6] +"	配列の最小値:"+array5[0] );
-/*回答5: 配列の最大値:0		配列の最小値:100*/
+/*回答5: 配列の最大値:100	配列の最小値:0*/
 
 	
 //		問題6:問題1の配列のSUMを求める
