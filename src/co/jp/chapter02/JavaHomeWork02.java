@@ -12,7 +12,7 @@ public class JavaHomeWork02 {
 		//回答：equals
 		
 		//質問３︓Float値⇒String文字例変更する場合、どうなメソッドを利用しますか？
-		//回答：String.valueOf("1.0F");
+		//回答：1.0F + ““
 		
 		//質問４︓以下式の値を記載してください。
 		//1.0 + 2.0
