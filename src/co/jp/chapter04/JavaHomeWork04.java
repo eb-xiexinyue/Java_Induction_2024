@@ -71,8 +71,39 @@ public class JavaHomeWork04 {
 		*/
 		
 		//問題７︓⾏列（２次元配列）の和と積を計算してください。
-		 //不懂，是让我解释，还是计算，计算的话也没给我配列
-		
+		 //
+
+
+  
+
+    /*  public static void main(String[] args) {
+      
+        int[][] array = {
+                {2, 3},
+                {4, 5}
+        };
+
+       总和
+        int sum = 0;
+        for (int i = 0; i < array.length; i++) {
+            for (int j = 0; j < array[i].length; j++) {
+                sum += array[i][j];
+            }
+        }
+        System.out.println("Sum of array elements: " + sum);
+
+        总积
+        int product = 1;
+        for (int i = 0; i < array.length; i++) {
+            for (int j = 0; j < array[i].length; j++) {
+                product *= array[i][j];
+            }
+               }
+        System.out.println("Product of array elements: " + product);
+                  }
+           }*/ 
+
+
 		
 		
 		//WORK 6
