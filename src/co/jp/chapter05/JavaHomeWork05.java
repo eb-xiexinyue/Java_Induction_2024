@@ -299,6 +299,10 @@ public class JavaHomeWork05 {
 
 				
 
+<<<<<<< HEAD
 		 */
 	}
 }
+=======
+		 */
+>>>>>>> branch 'li_jian' of https://github.com/eb-xiexinyue/Java_Induction_2024.git
