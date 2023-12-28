@@ -58,7 +58,9 @@ package co.jp.chapter06;
 			} 
 		*/ 		
 //質問2.2⾏列計算。2D⾏列クラスのコンストラクタには１配列引数
-public class Matrix {
+/*
+ * public class Matrix {
+ 
     private final int[][] data; 
     public Matrix(int[][] data) {
         this.data = data;
@@ -99,7 +101,7 @@ public class Matrix {
     }
 }
 
-
+*/
 		
 		    
 		
