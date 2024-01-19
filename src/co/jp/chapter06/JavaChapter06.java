@@ -2,6 +2,8 @@ package co.jp.chapter06;
 
 import java.util.Arrays;
 
+import co.jp.chapter07.Dummy;
+
 public class JavaChapter06 {
 	
 	//全局变量
@@ -11,6 +13,16 @@ public class JavaChapter06 {
 		// TODO 自動生成されたメソッド・スタブ
 		
 //		checkNum(15);
+		
+		Dummy dummy = new Dummy();
+		System.out.println("public n from Dummy Class:"+dummy.public_n);
+		
+		System.out.println("private n from Dummy Class:"+dummy.getPrivate_n());
+		
+		dummy.setPrivate_n(79);
+		
+		System.out.println("private n from Dummy Class:"+dummy.getPrivate_n());
+		
 		
 		int sum = sum(2,3);
 		
