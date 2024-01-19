@@ -48,3 +48,4 @@ public class JavaHomeWork08 {
 //	print(new Child()); // ここで Child クラスのインスタンスを渡す
 //	}
 //  }
+
