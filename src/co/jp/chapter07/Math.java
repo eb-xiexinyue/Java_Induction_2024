@@ -33,14 +33,7 @@ public class Math {
 			}
 		return ave;
 		}
-		
 	
-	public static int add(int[][]data) {
-		
-		
-		return 0;
-		
-	}
 	
 }
-	
+
