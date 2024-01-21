@@ -32,7 +32,7 @@ public class Math {
 			ave = sum/array.length;
 			}
 		return ave;
-		}
+	}
 	
 	
 }
