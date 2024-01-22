@@ -5,6 +5,7 @@ import java.util.Arrays;
 public class JavaHomeWork07 {
 
 	public static void main(String[] args) {
+		
 		// TODO 自動生成されたメソッド・スタブ
 //		質問1: 以下コードのコンパイルエラー理由を教えてください。
 		// Pet.java
@@ -81,5 +82,6 @@ public class JavaHomeWork07 {
 		matrixC.printMatrix();
 		
 	}
+	
 	
 }
