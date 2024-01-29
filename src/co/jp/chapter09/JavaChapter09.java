@@ -4,6 +4,31 @@ public class JavaChapter09 {
 
 	public static void main(String[] args) {
 		
+//		Gender gender = Gender.female;
+		
+//		switch(gender) {
+//			case female:
+//				System.out.println("female");
+//				break;
+//			case male:
+//				System.out.println("male");
+//				break;
+//			default:
+//				break;
+//		}
+		
+		for(Gender g : Gender.values()) {
+			System.out.println(g.color);
+		}
+		
+//		gender = Gender.valueOf("hidden");
+//		
+//		System.out.println(gender.name());
+//		
+//		System.out.println(gender.getGenderStr());
+//		
+//		System.out.println(gender.getGenderNo());
+		
 		//Animal animal = new Animal();
 		
 		//一般的の実装
@@ -42,44 +67,44 @@ public class JavaChapter09 {
 //		animal.walk();
 		
 		//ラムダ式での実装
-		ILand_Animal iAnimal = (s, i)->{
-			System.out.println("iAnimal walking, And "+s +" "+ i  +" times");
-		};
-		
-		iAnimal.walk("Jump",2);
-		
-		Gender sex = Gender.male;
+//		ILand_Animal iAnimal = (s, i)->{
+//			System.out.println("iAnimal walking, And "+s +" "+ i  +" times");
+//		};
+//		
+//		iAnimal.walk("Jump",2);
+//		
+//		Gender sex = Gender.male;
 	}
 	
-	public enum Gender{
-		male,
-		female
-	}
+//	public enum Gender{
+//		male,
+//		female
+//	}
 	
-	public static class Cat implements ILand_Animal{
-
-		@Override
-		public void walk(String str, int i) {
-			// TODO 自動生成されたメソッド・スタブ
-			System.out.println("Cat walking");
-		}
-		
-	}
-
-	public static class Tiger extends Land_Animal{
-
-		@Override
-		void move() {
-			// TODO 自動生成されたメソッド・スタブ
-			
-		}
-
-		@Override
-		void walk() {
-			// TODO 自動生成されたメソッド・スタブ
-			System.out.println("Tiger walking");
-		}
-		
-	}
+//	public static class Cat implements ILand_Animal{
+//
+//		@Override
+//		public void walk(String str, int i) {
+//			// TODO 自動生成されたメソッド・スタブ
+//			System.out.println("Cat walking");
+//		}
+//		
+//	}
+//
+//	public static class Tiger extends Land_Animal{
+//
+//		@Override
+//		void move() {
+//			// TODO 自動生成されたメソッド・スタブ
+//			
+//		}
+//
+//		@Override
+//		void walk() {
+//			// TODO 自動生成されたメソッド・スタブ
+//			System.out.println("Tiger walking");
+//		}
+//		
+//	}
 	
 }
